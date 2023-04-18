@@ -1,4 +1,4 @@
-package com.example.kotlinjwtjpa.dto
+package com.example.kotlinjwt.dto
 
 import org.springframework.web.server.ResponseStatusException
 

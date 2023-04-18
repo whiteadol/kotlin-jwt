@@ -1,4 +1,4 @@
-package com.example.kotlinjwtjpa.model
+package com.example.kotlinjwt.model
 
 import jakarta.persistence.*
 

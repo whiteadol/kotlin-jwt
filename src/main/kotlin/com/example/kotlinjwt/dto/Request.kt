@@ -1,4 +1,4 @@
-package com.example.kotlinjwtjpa.dto
+package com.example.kotlinjwt.dto
 
 data class LoginDto(
     val name: String,

@@ -1,6 +1,6 @@
-package com.example.kotlinjwtjpa.dto
+package com.example.kotlinjwt.dto
 
-import com.example.kotlinjwtjpa.model.Item
+import com.example.kotlinjwt.model.Item
 
 fun Item.toDto(): ItemDto {
     return ItemDto(id, name, count, note)

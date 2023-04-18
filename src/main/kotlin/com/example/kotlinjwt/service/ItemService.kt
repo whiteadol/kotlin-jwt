@@ -1,8 +1,8 @@
-package com.example.kotlinjwtjpa.service
+package com.example.kotlinjwt.service
 
-import com.example.kotlinjwtjpa.model.Item
-import com.example.kotlinjwtjpa.model.User
-import com.example.kotlinjwtjpa.repository.ItemRepo
+import com.example.kotlinjwt.model.Item
+import com.example.kotlinjwt.model.User
+import com.example.kotlinjwt.repository.ItemRepo
 import org.springframework.data.repository.findByIdOrNull
 import org.springframework.stereotype.Service
 

@@ -1,6 +1,6 @@
-package com.example.kotlinjwtjpa.config
+package com.example.kotlinjwt.config
 
-import com.example.kotlinjwtjpa.service.TokenService
+import com.example.kotlinjwt.service.TokenService
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.http.HttpMethod
@@ -32,7 +32,7 @@ class SecurityConfig(
 
         // Configure JWT
         http.oauth2ResourceServer().jwt()
-        http.authenticationManager {auth ->
+        http.authenticationManager { auth ->
             val jwt = auth as BearerTokenAuthenticationToken
             val user = tokenService.parseToken(jwt.token) ?: throw InvalidBearerTokenException("Invalid token")
             UsernamePasswordAuthenticationToken(user, "", listOf(SimpleGrantedAuthority("USER")))

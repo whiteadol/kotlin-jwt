@@ -1,11 +1,7 @@
-package com.example.kotlinjwtjpa.service
+package com.example.kotlinjwt.service
 
-import com.example.kotlinjwtjpa.model.User
-import org.springframework.security.oauth2.jwt.JwsHeader
-import org.springframework.security.oauth2.jwt.JwtClaimsSet
-import org.springframework.security.oauth2.jwt.JwtDecoder
-import org.springframework.security.oauth2.jwt.JwtEncoder
-import org.springframework.security.oauth2.jwt.JwtEncoderParameters
+import com.example.kotlinjwt.model.User
+import org.springframework.security.oauth2.jwt.*
 import org.springframework.stereotype.Service
 import java.time.Instant
 import java.time.temporal.ChronoUnit

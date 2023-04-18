@@ -1,7 +1,7 @@
-package com.example.kotlinjwtjpa.repository
+package com.example.kotlinjwt.repository
 
-import com.example.kotlinjwtjpa.model.Item
-import com.example.kotlinjwtjpa.model.User
+import com.example.kotlinjwt.model.Item
+import com.example.kotlinjwt.model.User
 import org.springframework.data.repository.CrudRepository
 
 interface ItemRepo : CrudRepository<Item, Long> {

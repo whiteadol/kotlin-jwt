@@ -1,18 +1,11 @@
-package com.example.kotlinjwtjpa.controller
+package com.example.kotlinjwt.controller
 
-import com.example.kotlinjwtjpa.config.toUser
-import com.example.kotlinjwtjpa.dto.*
-import com.example.kotlinjwtjpa.model.Item
-import com.example.kotlinjwtjpa.service.ItemService
+import com.example.kotlinjwt.config.toUser
+import com.example.kotlinjwt.dto.*
+import com.example.kotlinjwt.model.Item
+import com.example.kotlinjwt.service.ItemService
 import org.springframework.security.core.Authentication
-import org.springframework.web.bind.annotation.DeleteMapping
-import org.springframework.web.bind.annotation.GetMapping
-import org.springframework.web.bind.annotation.PostMapping
-import org.springframework.web.bind.annotation.PutMapping
-import org.springframework.web.bind.annotation.RequestBody
-import org.springframework.web.bind.annotation.RequestMapping
-import org.springframework.web.bind.annotation.RequestParam
-import org.springframework.web.bind.annotation.RestController
+import org.springframework.web.bind.annotation.*
 
 @RestController
 @RequestMapping("/api/items")

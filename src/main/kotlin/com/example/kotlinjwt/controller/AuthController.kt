@@ -1,13 +1,13 @@
-package com.example.kotlinjwtjpa.controller
+package com.example.kotlinjwt.controller
 
-import com.example.kotlinjwtjpa.dto.ApiException
-import com.example.kotlinjwtjpa.dto.LoginDto
-import com.example.kotlinjwtjpa.dto.LoginResponseDto
-import com.example.kotlinjwtjpa.dto.RegisterDto
-import com.example.kotlinjwtjpa.model.User
-import com.example.kotlinjwtjpa.service.HashService
-import com.example.kotlinjwtjpa.service.TokenService
-import com.example.kotlinjwtjpa.service.UserService
+import com.example.kotlinjwt.dto.ApiException
+import com.example.kotlinjwt.dto.LoginDto
+import com.example.kotlinjwt.dto.LoginResponseDto
+import com.example.kotlinjwt.dto.RegisterDto
+import com.example.kotlinjwt.model.User
+import com.example.kotlinjwt.service.HashService
+import com.example.kotlinjwt.service.TokenService
+import com.example.kotlinjwt.service.UserService
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping

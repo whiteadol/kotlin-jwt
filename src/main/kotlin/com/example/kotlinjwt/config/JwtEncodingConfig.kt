@@ -1,4 +1,4 @@
-package com.example.kotlinjwtjpa.config
+package com.example.kotlinjwt.config
 
 import com.nimbusds.jose.jwk.source.ImmutableSecret
 import com.nimbusds.jose.proc.SecurityContext

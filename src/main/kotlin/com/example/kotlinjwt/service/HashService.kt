@@ -1,4 +1,4 @@
-package com.example.kotlinjwtjpa.service
+package com.example.kotlinjwt.service
 
 import org.springframework.security.crypto.bcrypt.BCrypt
 import org.springframework.stereotype.Service

@@ -1,6 +1,6 @@
-package com.example.kotlinjwtjpa.config
+package com.example.kotlinjwt.config
 
-import com.example.kotlinjwtjpa.model.User
+import com.example.kotlinjwt.model.User
 import org.springframework.security.core.Authentication
 
 fun Authentication.toUser(): User {
